@@ -31,12 +31,12 @@ public class NewTest {
 
 	@BeforeMethod
 	public void setup() {
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shawn\\eclipse-workspace\\Test-01\\src\\test\\resources\\chromedriver.exe");
-		//driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shawn\\eclipse-workspace\\Test-01\\src\\test\\resources\\chromedriver.exe");
+		driver = new ChromeDriver();
 		
 		
-		manager = new ChromeDriverManger();
-		driver = manager.createDriver();
+		//manager = new ChromeDriverManger();
+		//driver = manager.createDriver();
 		
 	
 		String url = "http://automationpractice.com/";
